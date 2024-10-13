@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcStartApp", "MvcStartApp\MvcStartApp.csproj", "{28ACCB4F-C9F6-4E43-BD58-A5EBF90A39A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64B346B0-78DC-45F1-B909-1E4D858823FB} = {64B346B0-78DC-45F1-B909-1E4D858823FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcStartApp.Data", "MvcStartApp.Data\MvcStartApp.Data.csproj", "{64B346B0-78DC-45F1-B909-1E4D858823FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28ACCB4F-C9F6-4E43-BD58-A5EBF90A39A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ACCB4F-C9F6-4E43-BD58-A5EBF90A39A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ACCB4F-C9F6-4E43-BD58-A5EBF90A39A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ACCB4F-C9F6-4E43-BD58-A5EBF90A39A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B346B0-78DC-45F1-B909-1E4D858823FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B346B0-78DC-45F1-B909-1E4D858823FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B346B0-78DC-45F1-B909-1E4D858823FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B346B0-78DC-45F1-B909-1E4D858823FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6724A45E-6533-4AFD-855E-2960ACECE8EF}
+	EndGlobalSection
+EndGlobal
