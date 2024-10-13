@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "View project authors";
+}
+<div class="text-center">
+    <h2 class="display-4" style="text-align: left">Логирование сайта</h2>
+    <br>
+    <table>
+        <tr>
+            <td>Идентификатор</td>
+            <td>Url</td>
+            <td>Дата</td>
+        </tr>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.Id</td>
+                <td>@request.Url</td>
+                <td>@request.Date</td>
+            </tr>
+        }
+    </table>
+</div>
